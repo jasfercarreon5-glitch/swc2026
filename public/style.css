@@ -1013,3 +1013,31 @@ footer {
         font-size: 28px;
     }
 }
+/* =========================================================
+   LIGHT INPUTS / SELECTS FIX
+========================================================= */
+
+.membership-link,
+.styled-select,
+.action-dropdown,
+.pending-table select,
+input.light-input,
+select.light-input {
+
+    background: var(--card-light);
+    color: var(--text-dark);
+
+    border: 1px solid #d6ccb8;
+}
+
+/* placeholder color */
+.membership-link::placeholder,
+input.light-input::placeholder {
+    color: #777;
+}
+
+/* dropdown option text */
+select option {
+    color: #111;
+    background: #fff;
+}
